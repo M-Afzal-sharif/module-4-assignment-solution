@@ -1,0 +1,13 @@
+let names_array=["john","afzal","jerry","kamil","subhan","ali","jolli","jamila","musfiira","junaid","jamaima","noreen"];
+for(let i=0;i<names_array.length;i++)
+{
+    if(names_array[i][0]=='j')
+    {
+        console.log(`good bye ${names_array[i]}`);
+    }
+
+    else
+    {
+        console.log(`hello ${names_array[i]}`);
+    }
+}
